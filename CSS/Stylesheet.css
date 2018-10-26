@@ -1,0 +1,226 @@
+ 
+    *
+    {
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body 
+    {
+        background-color: rgb(44, 44, 44);
+        background-attachment: fixed;
+    }
+
+    footer
+    {
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+        color: #ffffff;
+    }
+
+    h1
+    {
+        background-color: rgba(238, 238, 238, 0.596);
+        border: 3px solid rgba(102, 102, 102, 0.815);
+        color: #444444;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 36px;
+        text-align: center;
+        width: 15%;
+        height: 5%;
+        margin: auto;
+        padding-bottom: 0.3em;
+    }
+
+    h2
+    {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0.3em 0;
+        overflow: auto;
+    }
+
+    p
+    {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-bottom: 0.6em;
+    }
+
+    .indexBody 
+    {
+        background-image: url("../Images/HomeBanner.jpg");
+    }
+
+    .natureBody
+    {
+        background-image: url("../Images/NatureBackground.jpeg"); 
+    }
+
+    .fashionBody
+    {
+        background-image: url("../Images/FashionBackground.jpeg"); 
+    }
+
+    .contactBody
+    {
+        background-image: url("../Images/ContactBackground.jpg"); 
+    }
+    
+    .copyBody
+    {
+        background-image: url("../Images/CopyrightBackground.jpg"); 
+    }
+
+    .homeNavBar 
+    {
+        margin: 3em auto;
+        text-align: center;
+    }
+
+    .homeNavBar a
+    {  
+        background-color: rgba(238, 238, 238, 0.596);
+        border: 3px solid rgba(102, 102, 102, 0.815);
+        display: inline-block;
+        color: #444444;
+        padding: 18px 5%;
+        text-decoration: none;
+        font-size: 32px;
+        overflow: auto;
+    }
+
+    a:hover
+    {
+        filter: brightness(1.5);
+    }
+
+    a:active
+    {
+        filter: brightness(0.5) blur(1px);
+    }
+
+    .bodyTextContainer 
+    {
+        background-color: rgba(238, 238, 238, 0.37);
+        border: 3px solid rgba(121, 121, 121, 0.726);
+        margin: auto;
+        width: 50%;
+        overflow: auto;
+
+    }
+
+    .bodyImage
+    {
+        margin: 10px 10px;
+        float: left;
+    }
+
+    .bodyText
+    {
+        color: #444444;
+    }
+
+    .imageSetContainer
+    {
+        background-color: rgba(238, 238, 238, 0.596);
+        border: 3px solid rgba(85, 85, 85, 0.897);
+        margin: 1em 10em 8em 13em;
+        width: 75%;
+        padding: 1.5em 0px;
+        overflow: auto;
+    }
+
+    .imageSetContainer img
+    {
+        display: inline-block;
+        padding: 1em;
+        margin-left: 1.5em;
+    }
+
+    .imageSetContainer img
+    {
+        max-width: 90%;
+        max-height: 80%;
+    }
+
+    .imageSetContainer img:hover
+    {
+        filter: opacity(95%);
+    }
+
+    .contactDetailsContainer
+    {
+        background-color: rgba(238, 238, 238, 0.596);
+        border: 3px solid rgba(85, 85, 85, 0.897);
+        width: 45%;
+        margin: 3em auto;
+        overflow: auto;
+    }
+
+    .clientInfo
+    {
+        margin: 2em;
+        text-align: left;
+        float: left;
+        font-size: 150%;
+        width: 35%;
+    }
+
+    .clientInfo .socialMedia
+    {
+        margin-top: 4.3em;
+        float: left;
+    }
+
+    .contactBody img:hover
+    {
+        filter: invert(100%);
+    }
+
+    .contactBody img:active
+    {
+        filter: invert(100%) brightness(0.75);
+    }
+
+    .clientForm
+    {
+        text-align: left;
+        float: right;
+        margin: 2em 8em 2em 2em;
+        font-size: 125%;
+    }
+
+    .clientForm input
+    {
+        border: 3px solid rgba(85, 85, 85, 0.897);
+        margin-bottom: 1em;
+        height: 2em;
+        width: 150%;
+    }
+
+    .clientForm textarea
+    {
+        border: 3px solid rgba(85, 85, 85, 0.897);
+        margin-bottom: 1em;
+        width: 150%;
+    }
+
+    .clientForm .sendButton
+    {
+        padding-right: 1.75em;
+    }
+
+    .copyrightTextContainer
+    {
+        background-color: rgba(238, 238, 238, 0.596);
+        border: 3px solid rgba(85, 85, 85, 0.897);
+        width: 65%;
+        margin: 3em auto;
+        text-align: center;
+        font-size: 150%;
+        overflow: auto;
+    }
+
+
+   
